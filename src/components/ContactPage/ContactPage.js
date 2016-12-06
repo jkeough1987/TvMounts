@@ -10,7 +10,6 @@
 import React, {Component, PropTypes} from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './ContactPage.scss';
-import Img from '/Users/joshuakeough/PersonalWebsites/TvMounts/src/components/ContactPage/JoshResumeImg.png';
 
 const title = 'Contact Me';
 
@@ -31,7 +30,7 @@ class ContactPage extends Component {
         <div className={s.container}>
           <h1>{title}</h1>
 
-          <img src={Img} width="380" height="380" alt="React"/>
+          <img src="Josh.jpg" width="380" height="380" alt="React"/>
 
           <p>Cell: &nbsp;
             <a href="tel:1-901-336-5063">(901) 336-5063</a>
